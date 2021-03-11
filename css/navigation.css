@@ -19,6 +19,10 @@ li a {
     text-decoration: none;
 }
 
+.bilder {
+    width: 250px;
+    height: auto;
+}
 
 #current {
     background-color: White;
