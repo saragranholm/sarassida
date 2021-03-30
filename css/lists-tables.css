@@ -1,0 +1,180 @@
+.unordered { 
+    list-style-type: square;
+ } 
+ .nested-ul {
+      list-style-type: circle; 
+    }
+    .unordered {
+
+        line-height: 170%;
+        
+        }
+        .unordered {
+
+            background: #f1cb61;
+            
+            padding: 20px;
+            
+            width: 30%;
+            
+            font-family: Arial, Helvetica, sans-serif;
+            
+            }
+            
+            .unordered li {
+            
+            background: #f8d880;
+            
+            margin: 5px;
+            
+            }
+            
+            .nested-ul li {
+            
+            background: #f5e0a5;
+            
+            margin: 5px;
+            
+            }
+            .ordered {
+
+                background: #91f7cc;
+                
+                padding: 20px;
+                
+                width: 20%;
+                
+                font-family: serif;
+                
+                font-size: 1.3em;
+                
+                }
+                
+                .ordered li {
+                
+                background: #d3ffee;
+                
+                padding: 5px;
+                
+                margin-left: 20px;
+                
+                }
+                .custom-box-list {
+
+                    margin: 0;
+                    
+                    padding: 0;
+                    
+                    list-style-type: none;
+                    
+                    }
+                    
+                    .custom-box-list li {
+                    
+                    counter-increment: step-counter;
+                    
+                    margin-bottom: 10px;
+                    
+                    }
+                    
+                    .custom-box-list li::before {
+                    
+                    content: counter(step-counter);
+                    
+                    margin-right: 5px;
+                    
+                    font-size: 80%;
+                    
+                    background-color: rgb(184, 112, 212);
+                    
+                    color: rgb(2, 1, 1);
+                    
+                    font-weight: bold;
+                    
+                    padding: 3px 8px;
+                    
+                    border-radius: 3px;
+                    
+                    }
+                    .list-image {
+
+                        list-style: none;
+                        
+                        padding-left: 0;
+                        
+                        }
+                        
+                        .list-image li {
+                        
+                        position: relative;
+                        
+                        padding-left: 30px;
+                        
+                        line-height: 170%;
+                        
+                        }
+                        
+                        .list-image li:before {
+                        
+                        content: '';
+                        
+                        width: 20px;
+                        
+                        height: 20px;
+                        
+                        position: absolute;
+                        
+                        background-image: url('mushroom.png');
+                        
+                        background-size: cover;
+                        
+                        background-position: center;
+                        
+                        left: 0;
+                        
+                        top: 50%;
+                        
+                        transform: translateY(-50%);
+                        
+                        }
+                        .popular-sites {
+
+                            list-style: none;
+                            
+                            padding-left: 0;
+                            
+                            }
+                            
+                            .popular-sites li {
+                            
+                            position: relative;
+                            
+                            padding-left: 30px;
+                            
+                            line-height: 170%;
+                            
+                            }
+                            
+                            .popular-sites li:before {
+                            
+                            content: '';
+                            
+                            width: 20px;
+                            
+                            height: 20px;
+                            
+                            position: absolute;
+                            
+                            background-image: url('moon.png');
+                            
+                            background-size: cover;
+                            
+                            background-position: center;
+                            
+                            left: 0;
+                            
+                            top: 50%;
+                            
+                            transform: translateY(-50%);
+                            
+                            }
